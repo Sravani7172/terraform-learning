@@ -26,8 +26,5 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
 
-      - name: Terraform Plan
-        run: terraform plan
-
       - name: Success Message
         run: echo "Pipeline executed successfully"

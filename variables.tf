@@ -12,4 +12,4 @@ variable "availability_zone" {}
 
 variable "key_name" {}
 
-variable "public_key_path" {}
+variable "public_key" {}

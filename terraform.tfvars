@@ -12,6 +12,6 @@ availability_zone = "ap-south-1a"
 
 key_name = "terraform-key-new"
 
-public_key_path = "/home/sravani/.ssh/id_ed25519.pub"
+public_key = ""
 
 

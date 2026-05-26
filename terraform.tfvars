@@ -10,8 +10,5 @@ subnet_cidr = "10.0.1.0/24"
 
 availability_zone = "ap-south-1a"
 
-key_name = "terraform-key-new"
-
-public_key = ""
 
 

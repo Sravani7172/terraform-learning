@@ -36,5 +36,14 @@ jobs:
       - name: Terraform Plan
         run: terraform plan
 
+       # Terraform Apply
+      - name: Terraform Apply
+        run: terraform apply -auto-approve
+
+      # Success Message
       - name: Success Message
-        run: echo "Pipeline executed successfully"
+        run: echo "Terraform Infrastructure Created Successfully"
+
+      # Terraform Destroy
+      - name: Terraform Destroy
+        run: terraform destroy -auto-approve

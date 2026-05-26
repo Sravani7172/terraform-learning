@@ -1,0 +1,12 @@
+# Terraform generated files
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# VS Code files
+.vscode/
